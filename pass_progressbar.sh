@@ -48,7 +48,6 @@ until [ $pass = $password ];
 do
     echo
     echo `setterm -foreground white`La contraseña \
-
 	 `setterm -foreground red -bold on`$pass \
 	 `setterm -foreground white`no es correcta, \
 	 `setterm -foreground red`Intento $intentos:\
